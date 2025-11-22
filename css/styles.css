@@ -73,9 +73,24 @@ table {
 }
 
 ul {  
-  padding-top: 100px;
+  padding-top: 120px;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+} 
+
+li {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
 }
 
+li strong {
+  font-weight: bold;
+}
 
-
+.disabled {
+  visibility: hidden;
+}
